@@ -91,7 +91,7 @@ sudo apt install webmin
 
   echo ""
   echo "###############################################"
-  echo "    Navigate to your server hostname / IP address on port 10000 and sign in with your linux account"
+  echo "Navigate to your server hostname / IP address on port 10000 and sign in with your linux account"
   echo "###############################################"
   echo ""
   sleep 3s
