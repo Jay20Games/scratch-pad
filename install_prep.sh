@@ -53,8 +53,8 @@ curl -fsSL https://get.docker.com | sh >> ~/docker-script-install.log 2>&1
   echo "####################################################"
   echo ""
   
-sudo curl -L "https://github.com/docker/compose/releases/download/1.23.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose >> ~/docker-script-install.log
-sudo chmod +x /usr/local/bin/docker-compose >> ~/docker-script-install.log
+sudo apt isntall docker-compose >> ~/docker-script-install.log
+#sudo chmod +x /usr/local/bin/docker-compose >> ~/docker-script-install.log
 
   echo "###############################################"
   echo "- Docker Compose Version is now: " 
@@ -68,7 +68,7 @@ sudo chmod +x /usr/local/bin/docker-compose >> ~/docker-script-install.log
   echo "###############################################"
   echo ""
 
-docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.11.1
+docker run -d -p 9001:9001 --name portainer_agent --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/docker/volumes:/var/lib/docker/volumes portainer/agent:latest
   echo ""
   echo "###############################################"
   echo "    Navigate to your server hostname / IP address on port 9443 and create your admin account for Portainer-CE"
