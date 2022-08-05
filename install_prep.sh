@@ -53,7 +53,7 @@ curl -fsSL https://get.docker.com | sh >> ~/docker-script-install.log 2>&1
   echo "####################################################"
   echo ""
   
-sudo apt isntall docker-compose >> ~/docker-script-install.log
+sudo apt install docker-compose >> ~/docker-script-install.log
 #sudo chmod +x /usr/local/bin/docker-compose >> ~/docker-script-install.log
 
   echo "###############################################"
@@ -87,7 +87,7 @@ sudo wget https://download.webmin.com/jcameron-key.asc
 sudo cat jcameron-key.asc | gpg --dearmor >/etc/apt/trusted.gpg.d/jcameron-key.gpg
 sudo apt install apt-transport-https
 sudo apt update
-sudo apt install webmin
+sudo apt install webmin -y
 
   echo ""
   echo "###############################################"
