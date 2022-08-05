@@ -6,7 +6,7 @@ clear
   echo "#######################################################"
   echo "Installing Docker, Docker-Compose, Portainer and Webmin"
   echo "#######################################################"
-  sleep 3s
+  sleep 1s
 
   echo "########################################################"
   echo "####        Install APT Updates and Upgrades        ####"
@@ -19,7 +19,7 @@ sudo apt update && sudo apt upgrade -y
   echo "APT update and upgrade finished."
   echo "#######################################################"
   echo ""
-  sleep 2s
+  sleep 1s
 
   echo "###############################################"
   echo "######         Install Docker-CE         ######"
@@ -33,7 +33,7 @@ curl -fsSL https://get.docker.com | sh >> ~/docker-script-install.log 2>&1
   docker -v
   echo "###############################################"
   echo ""
-  sleep 5s
+  sleep 1s
 
   echo "###############################################"
   echo "  - Attempting to add the currently logged in user to the docker group..."
@@ -46,7 +46,7 @@ curl -fsSL https://get.docker.com | sh >> ~/docker-script-install.log 2>&1
   echo "  - You'll need to log out and back in to finalize the addition of your user to the docker group."
   echo "###############################################"
   echo ""
-  sleep 3s
+  sleep 1s
   
   echo "####################################################"
   echo "######         Install Docker-Compose         ######"
@@ -58,7 +58,7 @@ sudo apt install docker-compose >> ~/docker-script-install.log
 
   echo "###############################################"
   echo "- Docker Compose Version is now: " 
-  docker-compose --version
+docker-compose --version
   echo "###############################################"
   echo ""
   sleep 3s
@@ -94,5 +94,4 @@ sudo apt install webmin -y
   echo "Navigate to your server hostname / IP address on port 10000 and sign in with your linux account"
   echo "###############################################"
   echo ""
-  sleep 3s
-
+  sleep 1s
