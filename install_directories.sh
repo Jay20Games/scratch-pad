@@ -1,3 +1,5 @@
+mkdir /data
+mkdir /data/{torrents|usenet|media|configs}
 mkdir /data/torrents/{tv|movies|music}
 mkdir /data/usenet/{tv|movies|music}
 mkdir /data/media/{tv|movies|music}
