@@ -8,3 +8,6 @@ https://docs.portainer.io/start/install
 
 ### nginx proxy manager:
 https://nginxproxymanager.com/setup/#running-the-app
+
+### firewall commands:
+https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands
