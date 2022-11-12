@@ -4,4 +4,4 @@ sudo cat jcameron-key.asc | gpg --dearmor >/etc/apt/trusted.gpg.d/jcameron-key.g
 sudo apt-add-repository "deb https://download.webmin.com/download/repository sarge contrib"
 sudo apt install apt-transport-https
 sudo apt update
-sudo apt install webmin
+sudo apt install webmin -y
