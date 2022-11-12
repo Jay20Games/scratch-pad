@@ -5,8 +5,7 @@ https://www.techrepublic.com/article/how-to-install-virtualbox-guest-additions-o
 
 
 ### vbox page fusion
-https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/guestadd-memory-usage.html
-
+https://docs.oracle.com/en/virtualization/virtualbox/6.1/user/guestadditions.html#guestadd-pagefusion
 
 ### portainer host and agent:
 https://docs.portainer.io/start/install
