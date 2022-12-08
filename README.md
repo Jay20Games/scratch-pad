@@ -12,10 +12,6 @@ https://docs.oracle.com/en/virtualization/virtualbox/6.1/user/guestadditions.htm
 https://docs.portainer.io/start/install
 
 
-### yacht
-https://yacht.sh/docs/Installation/Install/
-
-
 ### webmin
 https://webmin.com/deb.html
 
