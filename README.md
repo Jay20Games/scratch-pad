@@ -12,9 +12,10 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 
 sh get-docker.sh
 
+alt: curl https://get.docker.com | sh
+
 ## portainer host and agent:
 https://docs.portainer.io/start/install
-
 
 ## webmin:
 https://webmin.com/deb.html
