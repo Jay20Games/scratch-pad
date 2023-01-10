@@ -1,36 +1,36 @@
 # scratch-pad
 
-### vbox guest additions:
+## vbox guest additions:
 https://www.techrepublic.com/article/how-to-install-virtualbox-guest-additions-on-a-gui-less-ubuntu-server-host/
 
 
-### vbox page fusion
+## vbox page fusion:
 https://docs.oracle.com/en/virtualization/virtualbox/6.1/user/guestadditions.html#guestadd-pagefusion
 
-### docker and compose install
+## docker and compose install:
 curl -fsSL https://get.docker.com -o get-docker.sh
 
 sh get-docker.sh
 
-### portainer host and agent:
+## portainer host and agent:
 https://docs.portainer.io/start/install
 
 
-### webmin
+## webmin:
 https://webmin.com/deb.html
 
 
-### nginx proxy manager:
+## nginx proxy manager:
 https://nginxproxymanager.com/setup/#running-the-app
 
 
-### firewall commands:
+## firewall commands:
 https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands
 
 
-### online yaml parser
+## online yaml parser:
 https://yaml-online-parser.appspot.com/
 
 
-### composerize
+## composerize:
 https://www.composerize.com/
