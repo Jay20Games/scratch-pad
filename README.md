@@ -20,6 +20,7 @@ https://docs.portainer.io/start/install
 https://webmin.com/download/
 
 ## ansible
+TO INSTALL ANSIBLE: apt install ansible
 https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-ansible-on-ubuntu-22-04
 
 ## nginx proxy manager:
