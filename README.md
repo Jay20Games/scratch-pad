@@ -13,6 +13,8 @@ sh get-docker.sh
 
 alt: curl https://get.docker.com | sh
 
+usermod -aG docker amp
+
 ## portainer host and agent:
 https://docs.portainer.io/start/install
 
