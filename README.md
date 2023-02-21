@@ -39,3 +39,6 @@ https://www.composerize.com/
 
 ## iscsi setup
 https://www.informaticar.net/ubuntu-20-04-how-to-setup-iscsi-initiator/
+
+## timesyncd
+timedatectl set-ntp on
