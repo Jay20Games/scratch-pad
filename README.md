@@ -4,7 +4,7 @@
 https://www.techrepublic.com/article/how-to-install-virtualbox-guest-additions-on-a-gui-less-ubuntu-server-host/
 
 ## vbox page fusion:
-https://docs.oracle.com/en/virtualization/virtualbox/6.1/user/guestadditions.html#guestadd-pagefusion
+https://docs.oracle.com/en/virtualization/virtualbox/7.0/user/guestadditions.html#guestadd-pagefusion
 
 ## docker and compose install:
 curl -fsSL https://get.docker.com -o get-docker.sh
