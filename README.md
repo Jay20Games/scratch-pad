@@ -55,3 +55,6 @@ https://www.informaticar.net/ubuntu-20-04-how-to-setup-iscsi-initiator/
 timedatectl set-ntp on
 
 systemctl restart systemd-timesyncd.service
+
+## Valheim
+apt install libpulse-dev libatomic1 libc6
