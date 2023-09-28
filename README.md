@@ -15,6 +15,9 @@
 ## vbox page fusion:
 VBoxManage modifyvm "VM name" --page-fusion on
 
+## fail2ban
+yes
+
 ## disable ipv6 in grub
 https://itsfoss.com/disable-ipv6-ubuntu-linux/
 
