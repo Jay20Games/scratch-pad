@@ -27,7 +27,7 @@ curl https://get.docker.com | sh
 usermod -aG docker amp
 
 ## portainer host and agent:
-https://docs.portainer.io/start/install
+[https://docs.portainer.io/start/install](https://docs.portainer.io/start/install-ce)
 
 ## webmin:
 1. curl -o setup-repos.sh https://raw.githubusercontent.com/webmin/webmin/master/setup-repos.sh
