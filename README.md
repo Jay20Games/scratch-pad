@@ -15,6 +15,11 @@
 ## vbox page fusion:
 VBoxManage modifyvm "VM name" --page-fusion on
 
+## docker and compose install:
+curl https://get.docker.com | sh
+
+usermod -aG docker amp
+
 ## netdata
 
 ## netbird
@@ -24,11 +29,6 @@ yes
 
 ## disable ipv6 in grub
 https://itsfoss.com/disable-ipv6-ubuntu-linux/
-
-## docker and compose install:
-curl https://get.docker.com | sh
-
-usermod -aG docker amp
 
 ## portainer host and agent:
 [https://docs.portainer.io/start/install](https://docs.portainer.io/start/install-ce)
