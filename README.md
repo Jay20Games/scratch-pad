@@ -15,6 +15,8 @@
 ## vbox page fusion:
 VBoxManage modifyvm "VM name" --page-fusion on
 
+## netbird
+
 ## fail2ban
 yes
 
