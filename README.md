@@ -20,6 +20,12 @@ curl https://get.docker.com | sh
 
 usermod -aG docker amp
 
+## ctop
+docker run --rm -ti \
+  --name=ctop \
+  --volume /var/run/docker.sock:/var/run/docker.sock:ro \
+  quay.io/vektorlab/ctop:latest
+  
 ## netdata
 
 ## netbird
