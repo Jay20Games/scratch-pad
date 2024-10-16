@@ -20,6 +20,11 @@ curl https://get.docker.com | sh
 
 usermod -aG docker amp
 
+## webmin:
+1. curl -o setup-repos.sh https://raw.githubusercontent.com/webmin/webmin/master/setup-repos.sh
+2. sh setup-repos.sh
+3. apt-get install --install-recommends webmin
+
 ## ctop
 docker run --rm -ti \
   --name=ctop \
@@ -39,11 +44,6 @@ https://itsfoss.com/disable-ipv6-ubuntu-linux/
 ## portainer host and agent:
 [https://docs.portainer.io/start/install](https://docs.portainer.io/start/install-ce)
 
-## webmin:
-1. curl -o setup-repos.sh https://raw.githubusercontent.com/webmin/webmin/master/setup-repos.sh
-2. sh setup-repos.sh
-3. apt-get install webmin
-
 ## ansible
 TO INSTALL ANSIBLE: apt install ansible
 
@@ -54,6 +54,8 @@ https://nginxproxymanager.com/setup/#running-the-app
 
 ## firewall commands:
 https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands
+
+ufw allow in on wt0
 
 ## online yaml parser:
 https://yaml-online-parser.appspot.com/
@@ -77,3 +79,8 @@ ntpq -p
 
 ## Valheim
 apt install libpulse-dev libatomic1 libc6
+
+## VMDK
+VBoxManage.exe createmedium disk --filename C:\VBoxVMs\first\sg6\raw1.vmdk --format=VMDK --variant RawDisk --property RawDrive=\\.\PhysicalDrive1
+
+attributes disk clear readonly
