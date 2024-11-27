@@ -17,6 +17,7 @@
 VBoxManage modifyvm "VM name" --page-fusion on
 ```
 ## hyper-v LIS
+https://poweradm.com/install-linux-integration-services-hyper-v/
 ```
 echo 'hv_vmbus' >> /etc/initramfs-tools/modules
 echo 'hv_storvsc' >> /etc/initramfs-tools/modules
@@ -31,6 +32,10 @@ reboot
 ```
 ```
 lsmod | grep hv
+```
+linux azure kernel
+```
+apt install linux-azure
 ```
 ## docker and compose install:
 ```
