@@ -13,18 +13,40 @@
 10. Allow the installation to complete.
 
 ## vbox page fusion:
+```
 VBoxManage modifyvm "VM name" --page-fusion on
-
+```
+## hyper-v LIS
+```
+echo 'hv_vmbus' >> /etc/initramfs-tools/modules
+echo 'hv_storvsc' >> /etc/initramfs-tools/modules
+echo 'hv_blkvsc' >> /etc/initramfs-tools/modules
+echo 'hv_netvsc' >> /etc/initramfs-tools/modules
+```
+```
+apt update && apt -y upgrade
+apt -y install linux-virtual linux-cloud-tools-virtual linux-tools-virtual
+update-initramfs -u
+reboot
+```
+```
+lsmod | grep hv
+```
 ## docker and compose install:
+```
 curl https://get.docker.com | sh
-
+```
+```
 usermod -aG docker amp
-
+```
 ## webmin:
-1. curl -o setup-repos.sh https://raw.githubusercontent.com/webmin/webmin/master/setup-repos.sh
-2. sh setup-repos.sh
-3. apt-get install --install-recommends webmin
-
+```
+curl -o setup-repos.sh https://raw.githubusercontent.com/webmin/webmin/master/setup-repos.sh
+sh setup-repos.sh
+```
+```
+apt-get install --install-recommends webmin
+```
 ## ctop
 docker run --rm -ti \
   --name=ctop \
@@ -36,8 +58,9 @@ docker run --rm -ti \
 ## netbird
 
 ## fail2ban
-yes
-
+```
+apt install fail2ban
+```
 ## disable ipv6 in grub
 https://itsfoss.com/disable-ipv6-ubuntu-linux/
 
